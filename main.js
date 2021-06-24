@@ -46,7 +46,7 @@ Webcam.set({
 
 function takephoto(){
     Webcam.snap(function(data_uri){
-     document.getElementById("results").innerHTML='<img id="selfie_image" src"'+data_uri+'">';
+     document.getElementById("results").innerHTML='<img id="selfie_image" src="'+data_uri+'">';
     });
 }
 
